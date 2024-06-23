@@ -9,8 +9,8 @@ const projects = [
     imgSrc: portfolioimg,
     altText: 'Project 1',
     title: 'Portfolio Website (Web App)',
-    githubLink: 'https://github.com/username/portfolio',
-    liveDemoLink: 'https://portfolio.example.com'
+    githubLink: 'https://github.com/Nilesh-N-G/portfolio/blob/master/README.md',
+    liveDemoLink: 'https://nileshguravprotfolio.netlify.app/'
   },
   {
     imgSrc: fashioncornerimg,
