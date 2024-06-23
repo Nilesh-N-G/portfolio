@@ -4,6 +4,10 @@ import linkedinicon from '../assets/images/linkedin.png';
 import githubicon from '../assets/images/github.png';
 import resume from '../assets/resume/Resume.pdf';
 function HeroSection() {
+  const name = 'Nilesh Gurav';
+  const designation = 'Software Engineer';
+  const linkedinlink = 'https://www.linkedin.com/in/nilesh-gurav-17ab18vk/';
+  const githublink = 'https://github.com/Nilesh-N-G/';
   return (
     <div>
       <section id="profile">
@@ -12,8 +16,8 @@ function HeroSection() {
   </div>
   <div className="section__text">
     <p className="section__text__p1">Hello, I'm</p>
-    <h1 className="title">Nilesh Gurav</h1>
-    <p className="section__text__p2">Software Engineer</p>
+    <h1 className="title">{name}</h1>
+    <p className="section__text__p2">{designation}</p>
     <div className="btn-container">
       <button
         className="btn btn-color-2"
@@ -36,7 +40,7 @@ function HeroSection() {
         className="icon"
         target="_blank"
         onClick={() =>{
-          window.open('https://www.linkedin.com/in/nilesh-gurav-17ab18vk/', '_blank')
+          window.open(linkedinlink, '_blank')
         }}
       />
       <img
@@ -45,7 +49,7 @@ function HeroSection() {
         className="icon"
         target="_blank"
         onClick={() =>{
-          window.open('https://github.com/Nilesh-N-G/', '_blank')
+          window.open(githublink, '_blank')
         }
         }
       />
