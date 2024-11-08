@@ -2,7 +2,7 @@ import React from 'react';
 import profilepic from '../assets/images/profile-pic-nilesh.png';
 import linkedinicon from '../assets/images/linkedin.png';
 import githubicon from '../assets/images/github.png';
-import resume from '../assets/resume/Resume.pdf';
+import resume from '../assets/resume/Resume2.pdf';
 function HeroSection() {
   const name = 'Nilesh Gurav';
   const designation = 'Software Engineer';

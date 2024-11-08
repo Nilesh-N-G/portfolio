@@ -16,14 +16,14 @@ const projects = [
     imgSrc: fashioncornerimg,
     altText: 'Project 2',
     title: 'Fashion Corner (Web App)',
-    githubLink: 'https://github.com/username/fashioncorner',
+    githubLink: 'https://github.com/Nilesh-N-G/Fashion-Corner',
     liveDemoLink: 'https://fashioncornerproject.000webhostapp.com/index.php'
   },
   {
     imgSrc: taxcalculatorimg,
     altText: 'Project 3',
     title: 'Tax Calculator (Android App)',
-    githubLink: 'https://github.com/username/taxcalculator',
+    githubLink: 'https://github.com/Nilesh-N-G/taxcalculator',
     liveDemoLink: null
   }
 ];
